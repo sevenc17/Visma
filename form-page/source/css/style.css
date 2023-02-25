@@ -859,12 +859,10 @@ footer {
             flex: 15% 0 0;
   }
   .langs::after {
-    right: calc(45% + 6px);
+    left: calc(20px + 0.4285714286vw);
   }
   .langs::before {
-    right: calc(50% + 6px);
-    height: 2px;
-    width: 6px;
+    left: calc(17px + 0.4285714286vw);
   }
   .langs .dis-active-langs {
     display: none;

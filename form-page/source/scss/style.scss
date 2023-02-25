@@ -758,13 +758,11 @@ footer {
 	}
 
 	.langs::after {
-		right: calc(45% + 6px);
+		left: calc(20px + 6 * (100vw / 1400));
 	}
 
 	.langs::before {
-		right: calc(50% + 6px);
-		height:2px;
-		width: 6px;
+		left: calc(17px + 6 * (100vw / 1400));
 	}
 
 	.langs .dis-active-langs{
